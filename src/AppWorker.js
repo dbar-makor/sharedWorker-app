@@ -1,7 +1,5 @@
-const worker = new SharedWorker(new URL('./AppWorkerhandler', import.meta.url))
+const worker = new SharedWorker(new URL("./AppWorkerhandler", import.meta.url));
 
-worker.port.start()
+worker.port.start();
 
-console.log('zxfz', worker.port)
-
-export default worker
+export default worker;
